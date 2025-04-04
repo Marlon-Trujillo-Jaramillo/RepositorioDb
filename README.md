@@ -11,22 +11,17 @@
 
 ## 🏗️ Estructura del Proyecto
 
-```
-InventarioDB/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/inventariodb/
-│   │   │   │   ├── MainActivity.java         # Pantalla principal de la app
-│   │   │   │   ├── dbProduct.java            # Clase de acceso a la base de datos
-│   │   │   │   └── Product.java              # Modelo de producto
-│   │   │   ├── res/
-│   │   │   │   ├── layout/activity_main.xml  # Layout de la interfaz
-│   │   │   │   └── mipmap/ & drawable/       # Recursos gráficos e íconos
-│   ├── build.gradle.kts
-├── build.gradle.kts
-├── settings.gradle.kts
-```
+
+- `app/src/main/java/com/example/inventariodb/`
+  - `MainActivity.java` — Pantalla principal de la app
+  - `dbProduct.java` — Clase de acceso a la base de datos
+  - `Product.java` — Modelo de producto
+- `app/src/main/res/layout/activity_main.xml` — Layout de la interfaz
+- `app/src/main/res/mipmap/` y `drawable/` — Recursos gráficos e íconos
+- `app/build.gradle.kts`
+- `build.gradle.kts`
+- `settings.gradle.kts`
+
 
 ## ▶️ Cómo Ejecutar el Proyecto
 
