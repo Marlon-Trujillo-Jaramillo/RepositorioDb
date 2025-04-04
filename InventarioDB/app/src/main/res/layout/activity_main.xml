@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bluelight"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tittle"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="7mm"
+        />
+
+    <TextView
+        android:layout_marginTop="40pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idproduct"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="5mm"
+        />
+    <EditText
+        android:id="@+id/etidProduct"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="codigo producto"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Productname"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="5mm"
+        />
+    <EditText
+        android:id="@+id/etProductname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="nombre producto"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_marginTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/precio"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="5mm"
+        />
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="valor unitario"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

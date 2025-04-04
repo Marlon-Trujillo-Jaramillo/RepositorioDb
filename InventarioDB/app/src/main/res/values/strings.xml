@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InventarioDB</string>
+    <string name="tittle">Producto</string>
+    <string name="idproduct">ID producto</string>
+    <string name="Productname">Nombre producto</string>
+    <string name="precio">PrecioUnit</string>
+</resources>

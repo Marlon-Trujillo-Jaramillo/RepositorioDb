@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluelight"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/tittle"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="7mm"
+        android:textStyle="bold" />
+
+    <!-- Código Producto -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/idproduct"
+        android:textAlignment="center"
+        android:textSize="5mm"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etidProduct"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Código Producto"
+        android:textAlignment="center"
+        android:inputType="text" />
+
+    <!-- Nombre Producto -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/productname"
+        android:textAlignment="center"
+        android:textSize="5mm"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etProductname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nombre Producto"
+        android:textAlignment="center"
+        android:inputType="textCapWords" />
+
+    <!-- Precio -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/precio"
+        android:textAlignment="center"
+        android:textSize="5mm"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Valor Unitario"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <!-- Existencia -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/existencia"
+        android:textAlignment="center"
+        android:textSize="5mm"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etExistencia"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Cantidad en existencia"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Buscar" />
+    </LinearLayout>
+
+    <!-- Mensajes -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="4mm" />
+</LinearLayout>
